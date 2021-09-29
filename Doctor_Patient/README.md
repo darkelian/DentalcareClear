@@ -1,10 +1,7 @@
-Please Read this :-
-
-to start the project you have to go to applicationlayer (FOLDER) and open the Doctorpatient.php
-
-
-There is an expected error in the patient and doctor login but once you login this error will vanish
-
-
-The project database structure is in the datalayer (FOLDER) - SQL DATABASE EXPORT 
-and its called registration(1)
+Pasos de la instalacion
+1. Tener instalado XAMPP control
+2. Activar el modulo de Apache y MySQL
+3. Abrir Admin dentro de MySQL
+4. En local se abrir phpmyadmin
+5. Damos en nueva database y colocamos el nombre registration
+6. Damos en import y seleccionamos el archivo de bases de datos 
