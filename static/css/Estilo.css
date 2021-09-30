@@ -1,31 +1,115 @@
 #ContenedorUbicacion {
-    position: relative;
-    top: 330px;
-    height: 50px;
+  position: relative;
+  top: 330px;
+  height: 50px;
   background-color: #1453a6;
-  
 }
-#TextoUbicacion{
-    color:white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    position: absolute;
-    left: 25px;
-    top: -15px;
+#TextoUbicacion {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  left: 25px;
+  top: -15px;
 }
-#Patrocinador{
-    position: relative;
-    top: 51px;
+#Patrocinador {
+  position: relative;
+  top: 51px;
+}
+#Botones {
+  position: absolute;
+  top: 900px;
 }
 
-.HBoton1{
-    position: relative;
-    top: 50px;
-    background-color: #1453a6;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.HBoton1 {
+  position: relative;
+  top: 50px;
+  left: 37%;
+  background-color: #1453a6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.HBoton1:hover {
+  background: #3f89ac;
+}
+.HBoton2 {
+  position: relative;
+  top: 50px;
+  left: 42%;
+  background-color: #1453a6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.HBoton2:hover {
+  background: #3f89ac;
+}
+.HBoton3 {
+  position: relative;
+  top: 50px;
+  left: 47%;
+  background-color: #1453a6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.HBoton3:hover {
+  background: #3f89ac;
+}
+.HBoton4 {
+  position: relative;
+  top: 50px;
+  left: 52%;
+  background-color: #1453a6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.HBoton4:hover {
+  background: #3f89ac;
+}
+
+#Imagen1{
+    position: absolute;
+    top: 790px;
+    left: 22%;
+}
+#Imagen2{
+    position: absolute;
+    top: 790px;
+    left: 37%;
+}
+#Imagen3{
+    position: absolute;
+    top: 825px;
+    left: 53%;
+}
+#Imagen4{
+    position: absolute;
+    top: 837px;
+    left: 70%;
 }
